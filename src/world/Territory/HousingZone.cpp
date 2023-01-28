@@ -54,14 +54,16 @@ bool Sapphire::HousingZone::init()
 
 
   int housingIndex;
-  if( m_territoryTypeId == 339 )
+  if (m_territoryTypeId == 339)
     housingIndex = 0;
-  else if( m_territoryTypeId == 340 )
+  else if (m_territoryTypeId == 340)
     housingIndex = 1;
-  else if( m_territoryTypeId == 341 )
+  else if (m_territoryTypeId == 341)
     housingIndex = 2;
-  else if( m_territoryTypeId == 641 )
+  else if (m_territoryTypeId == 641)
     housingIndex = 3;
+  else if (m_territoryTypeId == 979)
+    housingIndex = 4; //Kind of fallback
 
   auto& exdData = Common::Service< Data::ExdDataGenerated >::ref();
   auto info = exdData.get< Sapphire::Data::HousingLandSet >( housingIndex );

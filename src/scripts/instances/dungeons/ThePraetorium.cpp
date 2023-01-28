@@ -39,7 +39,7 @@ public:
     instance.registerEObj( "sgvf_w_lvd_b0118_4", 2001135, 4326381, 4, { -196.318497f, -104.078903f, -0.786835f }, 1.000000f, 0.000000f ); 
     // States -> vf_bextwall_on (id: 3) vf_bextwall_of (id: 4) 
     instance.registerEObj( "unknown_10", 2001766, 4175265, 4, { -570.270081f, -268.000000f, 217.461197f }, 1.000000f, 0.000000f ); 
-    instance.registerEObj( "仮シド指令", 2000806, 0, 4, { 217.957397f, 46.000000f, -11.597380f }, 1.000000f, 0.000000f ); 
+    //instance.registerEObj( "仮シド指�?, 2000806, 0, 4, { 217.957397f, 46.000000f, -11.597380f }, 1.000000f, 0.000000f ); 
     instance.registerEObj( "Magitekterminal", 2000851, 0, 4, { 133.745193f, 22.964720f, -0.015320f }, 0.991760f, 0.000048f ); 
     instance.registerEObj( "Magitekterminal_1", 2000852, 0, 4, { 134.477707f, 7.614197f, -0.045776f }, 0.991760f, 0.000048f ); 
     instance.registerEObj( "Magitekterminal_2", 2000856, 0, 4, { 145.769394f, 21.988159f, 7.095398f }, 0.991760f, 0.000048f ); 
