@@ -38,4 +38,4 @@ public:
 
 };
 
-EXPOSE_SCRIPT( TheUnendingCoilofBahamutUltimate );
+EXPOSE_SCRIPT(TheUnendingCoilofBahamutUltimate);
